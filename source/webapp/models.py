@@ -20,7 +20,8 @@ class Quote(models.Model):
         null=True,
         blank=True,
         validators=(MinValueValidator(0),),
-        verbose_name='Rating'
+        verbose_name='Rating',
+        default = 0
     )
     status = models.BooleanField(default=False, verbose_name='Moderated')
     created_at = models.DateTimeField(auto_now_add=True)

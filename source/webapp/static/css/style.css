@@ -1,0 +1,53 @@
+.container {
+    margin-top: 5%;
+    text-align: center; 
+
+}
+.content {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content h1 {
+    font-size: 70px;
+}
+.header {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.header a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    width: 900px;
+    margin: 5px;
+}
+.header btn {
+    margin: 5px;
+}
+a:hover,
+a:focus {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+a:active {
+    background-color: lightblue;
+}
+
+btn:hover,
+btn:focus {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+btn:active {
+    background-color: lightblue;
+}
+
+.weather-content {
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    width: 600px;
+    background-color: lightblue;
+    border: 3px solid black;
+}
